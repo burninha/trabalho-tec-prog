@@ -15,10 +15,10 @@ import java.util.Arrays;
 public class catalogo {
 
     static veiculo[] dados = {
-        new veiculo("Charbonneau 3008", "Cupê", "Preto", 1, 4, 5, 95000.00, true, true),
-        new veiculo("Hamakawa Yon", "Esportivo", "Vermelho", 2, 2, 5, 86000.00, true, true),
-        new veiculo("Charbonneau Mirai", "Transporte", "Preto", 3, 6, 8, 150000.00, true, true),
-        new veiculo("Celeritas Vitae", "Picape", "Branco", 4, 2, 2, 80000.00, false, true)
+        new veiculo("Ford Fusion", "Sedã", "Preto", 1, 4, 5, 39.900, true, true),
+        new veiculo("Chevrolet S10", "Picape", "Branco", 2, 2, 3, 68.890, true, true),
+        new veiculo("BMW X4", "Utilitário esportivo", "Preto", 3, 4, 5, 168.000, true, true),
+        new veiculo("Land Rover Discovery Sport ", "Utilitário esportivo", "Branco", 4, 4, 5, 175.000, false, true)
     };
     
     String[] tabela = {"Código", "Modelo", "Tipo", "Cor", "Portas", "Bancos", "Preço", "Sistema Multimidia", "Airbags"};
