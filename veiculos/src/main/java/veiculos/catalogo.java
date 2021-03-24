@@ -118,6 +118,6 @@ public class catalogo {
         }
         if (!existe) {
             System.out.println("Modelo não encontrado na Database");
-        }
+        } 
     }
 }
